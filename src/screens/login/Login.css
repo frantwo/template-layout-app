@@ -1,0 +1,43 @@
+#login-container{
+    height: 547px;
+    width: 594px;
+    background-color: var(--sparta-components-colors-neutral_blue-dark_77, #2c2f3a);
+    border-radius: 11px;
+    box-shadow: 0 12.8px 28.8px #00000038, 0 2.4px 7.2px #0000002e;
+}
+
+#login-wrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 21px;
+    padding-bottom: 81px;
+}
+
+#logo-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 158px;
+    margin-bottom: 52px;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.custom-input {
+    width: 350px;
+}
+
+.login-form-button{
+    width: 300px;
+}

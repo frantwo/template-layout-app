@@ -1,0 +1,54 @@
+#side-layout{
+    background: var(--sparta-components-colors-blue_dark-dark_05, #01011d);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.ant-layout-sider-children{
+    display:flex;
+    flex-direction: column;
+}
+
+.expanser-sider{
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+  
+.demo-logo-vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#layout-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background: var(--sparta-components-colors-blue_dark-dark_05, #01011d);
+}
+
+#side-menu{
+    background: var(--sparta-components-colors-blue_dark-dark_05, #01011d);
+}
+
+#wrapper-logout{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+#logout-button{
+    font-size: 14px;
+    width: 24px;
+    height: 24px;
+    color: white;
+}
